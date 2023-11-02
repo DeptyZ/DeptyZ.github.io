@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+nav{
+    height: 100px;
+    background: rgb(0, 74, 211);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: x-large;
+}
+
+.logo {
+    color: rgb(247, 0, 255);
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+    position: absolute;
+    left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color:rgb(0, 0, 71);
+}
+
+#linkit {
+    margin: 25px;
+    transition-duration: 200ms;
+    color: rgb(255, 0, 251);
+}
+
+#linkit:hover {
+transition-duration: 200ms;
+color: white;
+}
+.hero{
+    color: white;
+    position: relative;
+}
+#kello {
+text-align: center;
+font-size: 1.5rem;
+}
